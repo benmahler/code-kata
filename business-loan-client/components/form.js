@@ -1,4 +1,4 @@
-import styles from './form.module.css'
+import styles from '../styles/form.module.css'
 import { useEffect, useState } from 'react'
 
 
