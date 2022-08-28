@@ -1,50 +1,55 @@
-.form-group {
-    margin-bottom: 1rem;
+.container form {
+    display: table;
+    min-width: 350px;
+    margin: 0 auto;
+    padding: 1rem;
   }
-
-.form-group label {
-    display: block;
-    text-align: right;
+  
+ .container label {
+    display: table;
+    width: 100%;
     margin-bottom: 0.5rem;
-    margin-right: 10rem;
-}
-
-.form-group input,
-.form-group textarea {
+    color: #3b3b3b;
+  }
+  
+ .container input {
+    display: table;
     width: 100%;
     padding: 0.5rem;
-    border: 1px dotted #ccc;
+    border: 1px solid #ccc;
     border-radius: 0.25rem;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-    border-color: #aaa;
+    box-sizing: border-box;
+    margin-bottom: 2.5rem;
+  }
+  
+ .container input:focus {
     outline: none;
-}
-
-.form-group textarea {
-    resize: vertical;
-}
-
-.container button {
-    background: #00a0d2;
+    border-color: #0070f3;
+  }
+  
+.container  button {
+    display: table;
+    width: 100%;
+    padding: 0.5rem;
     border: none;
-    color: #fff;
-    padding: 0.5rem 1rem;
     border-radius: 0.25rem;
+    box-sizing: border-box;
+    margin-bottom: 2.5rem;
+    background-color: #0070f3;
+    color: #fff;
     cursor: pointer;
-}
-
-.container button:hover {
-    background: #0091c7;
-}
-
-.container button:disabled {
-    background: #ccc;
-    cursor: not-allowed;
-}
-
-.container button:disabled:hover {
-    background: #ccc;
-}
+  }
+  
+.container  button:hover {
+    background-color: #0060e9;
+  }
+  
+  .container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
