@@ -1,0 +1,50 @@
+.form-group {
+    margin-bottom: 1rem;
+  }
+
+.form-group label {
+    display: block;
+    text-align: right;
+    margin-bottom: 0.5rem;
+    margin-right: 10rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px dotted #ccc;
+    border-radius: 0.25rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #aaa;
+    outline: none;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.container button {
+    background: #00a0d2;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background: #0091c7;
+}
+
+.container button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.container button:disabled:hover {
+    background: #ccc;
+}
